@@ -1,4 +1,6 @@
-404 Error Page - Custom Design
+#### 404 Error Page - Custom Design ####
+
+
 This project is a simple 404 Error page design with an interactive button to simulate fixing the error. The page displays a "404 Page Not Found" message with a "Click to Fix" button that, when clicked, shows a "Voilà! Fixed." message with a shake animation.
 Features
 
@@ -15,7 +17,10 @@ Interactive Button: A button that simulates fixing the error with a message that
 Animations: Includes a shake animation for the "Fixed" message.
 
 
-Technologies Used
+--------
+
+
+####  Technologies Used ####
 
 
 HTML: The page structure and content.
@@ -27,13 +32,18 @@ CSS: Styling of the page elements including layout, fonts, colors, and animation
 JavaScript: A simple function to display the "fixed" message when the button is clicked.
 
 
-Files
+-----------
+
+
+##### Files #####
 
 
 index.html: The main HTML file containing the structure, styles, and interactivity.
 
 
-How to Use
+--------
+
+###### How to Use ######
 
 
 Clone or Download the repository.
@@ -75,7 +85,11 @@ Example Usage
 </body>
 </html>
 
-Customization
+
+------------
+
+
+#### Customization #####
 
 
 Button Text: You can change the button text by modifying the <button> element's text, such as:
@@ -97,7 +111,17 @@ body {
 Animation: You can modify the shake animation in the CSS for a different effect. Adjust the @keyframes shake rule to change the movement.
 
 
-License
+
+--------
+
+
+##### License #######
+
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+-------
+
 
 Let me know if you need further details or additional sections!
