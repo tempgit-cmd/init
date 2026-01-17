@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error - Page Not Found</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5rem;
+            color: #ff4c4c;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .message {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #2e8b57;
+            font-weight: bold;
+        }
+
+        .animation {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            50% { transform: translateX(10px); }
+            75% { transform: translateX(-10px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <p>Oops! This page does not exist.</p>
+    <button class="btn" onclick="fixError()">Click to Fix</button>
+    <p class="message" id="fixedMessage">Voilà! Fixed.</p>
+
+    <script>
+        function fixError() {
+            const message = document.getElementById("fixedMessage");
+            message.style.display = "block";
+            message.classList.add("animation");
+        }
+    </script>
+</body>
+</html>
+
